@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Vesti</title>
+		<link> https://filipkarlicic.github.io/pester/index.html</link>
+		<description>Ovde možete videti sve vesti vezane za Peštersku visoravan. </description>
+		<item>
+			<title>Nove vesti</title>
+			<link> https://filipkarlicic.github.io/pester/index.html</link>
+			<description>Dolazak novih jedinki beloglavog supa. </description>
+		</item>
+		
+	</channel>	
+</rss>
