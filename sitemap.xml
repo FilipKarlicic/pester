@@ -4,30 +4,30 @@
 		<loc>https://filipkarlicic.github.io/pester/index.html</loc>
 		<lastmod>2023-03-14</lastmod>
 		<changefreq>daily</changefreq>
-		<priority>1.0</priority>
+		<priority>0.9</priority>
 	</url>
 	<url>
 		<loc>https://filipkarlicic.github.io/pester/galerija.html</loc>
 		<lastmod>2023-03-14</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.9</priority>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
 	</url>
 	<url>
 		<loc>https://filipkarlicic.github.io/pester/o-nama.html</loc>
 		<lastmod>2023-03-14</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
+		<changefreq>monthly</changefreq>
+		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://filipkarlicic.github.io/pester/kontakt.html</loc>
 		<lastmod>2023-03-14</lastmod>
-		<changefreq>weekly</changefreq>
+		<changefreq>monthy</changefreq>
 		<priority>0.7</priority>
 	</url>
 	<url>
 		<loc>https://filipkarlicic.github.io/pester/o-autoru.html</loc>
 		<lastmod>2023-03-14</lastmod>
-		<changefreq>weekly</changefreq>
+		<changefreq>yearly</changefreq>
 		<priority>0.6</priority>
 	</url>
 </urlset>	
