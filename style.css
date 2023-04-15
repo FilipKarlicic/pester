@@ -10,32 +10,29 @@ header{
 	width:100%;
 	height:110px;
 	padding:0px;
-	background-color:white;
+	background-color:#5c8a03;
 	position:fixed;
-	margin-bottom:600px;
-	z-index:1;
+	margin-bottom:800px;
+	z-index:3;
 	opacity:0.9;
-	border:3px solid #fff;
-	border-radius:0px 0px 30px 30px;
+	
+	
 }
 footer{
 	width:100%;
-	height:150px;
-	position:realative;
-	bottom:0;
-    margin-top:900px;
-	background-color:white;
-	border:0px solid #fff;
-	border-radius:30px 30px 0px 0px;
+	height:200px;
+	position:absolute;
+	background-color:#5c8a03;
 	opacity:1;
 	padding-top:20px;
+	top:2900px;
 	
 }
 .kontakt1{
-	width:35%;
-	height:200px;
-	margin-left:30px;
-	background-color:;
+	width:350px;
+	height:190px;
+	margin-left:70px;
+	border-left:2px solid black;
 	float:left;
 } 
 .kontakt1 a:hover{
@@ -46,13 +43,21 @@ footer{
 	text-decoration:none
 }
 .kontakt1 ul li{
-	margin-bottom:20px;
+	margin-bottom:30px;
+	margin-top:20px;
+	margin-left:10px;
+	
+}
+.kontakt1 ul li a{
+	color:black;
+	
 }
 #brzi-linkovi{
-	width:50%;
-	height:200px;
+	width:870px;
+	height:180px;
 	float:left;
-	margin-left:-100px;
+	
+	
 }
 #brzi-linkovi a:hover{
 	text-decoration:underline;
@@ -61,82 +66,97 @@ footer{
 	list-style-type:none;
 	text-decoration:none;
 	display:flex;
-	margin-top:70px;
+	margin-top:50px;
+	
 }
 #brzi-linkovi ul li a{
-	font-size:24px;
-	margin-left:20px;
+	font-size:16px;
 	color:black;
 	font-family: 'Raleway', sans-serif;
 }
+#brzi-linkovi ul li{
+	margin-right:100px;
+}
 #brzi-linkovi h1{
-	margin-left:230px;
-	font-size:30px;
+	margin-left:330px;
+	font-size:24px;
 	font-family: 'Raleway', sans-serif;
+	
 }
 .drmreze{
-	width:15%;
-	height:200px;
+	width:150px;
+	height:190px;
 	float:left;
-	margin-right:50px;
+
+	border-right:2px solid black;
+	position:relative;
+	
 }
 .drmreze ul{
 	list-style-type:none;
 	text-decoration:none;
-	margin-left:-80px;
-	display:flex;
-	margin-top:30px;
-	margin-left:5px;
+	margin-left:10px;
+	display:inline;
+	margin-top:10px;
+	margin-left:25px;
+	float:right;
 }
 .drmreze ul li {
-	margin-left:30px;
+	margin-right:10px;
+	margin-bottom:10px;
 }
 .cleaner{
 	clear:both;
 }
 .logo{
-	width:8%;
+	width:50px;
 	height:90px;
+	margin:0 auto;
 	margin-top:25px;
 	margin-left:70px;
 	float:left;
 	opacity:1;
 }
 #naslov{
-	width:30%;
+	width:100px;
 	height:90px;
 	float:left;
-	margin-top:10px;
-	margin-left:10px;
+	margin-top:20px;
+	margin-left:80px;
 	opacity:1;
+	
 }
 #naslov h1 {
-	font-size:90px;
+	font-size:50px;
 	color:black;
 	font-family: 'Raleway', sans-serif;
 }
 #nav{
-	width:50%;
+	width:1000px;
 	height:90px;
 	float:left;
+	
 	margin-top:10px;
-	margin-left:30px;
+	margin-left:200px;
 	display:inline;
 	align-items:center;
 	justify-content:end;
 	opacity:1;
+	
+	
 }
 #nav ul{
 	display:flex;
 	list-style-type:none;
+	margin-left:350px;
 }
 #nav ul li{
-	margin-left:40px;
-	margin-top:50px;
+	margin-left:30px;
+	margin-top:30px;
 }
 #nav ul li a{
 	text-decoration:none;
-	font-size:24px;
+	font-size:20px;
 	color:black;
 	font-family: 'Raleway', sans-serif;
 }
@@ -151,43 +171,48 @@ footer{
 	width:100%;
 	height:2000px;
 	padding-top:110px;
+	background-color:#d6f58e;
 }
 .blok1{
 	width:100%;
 	height:800px;
 	background-color:white;
-	padding-top:90px;
+	position:relative;
 	background-image:url("img/pozadina-krava.jpg")  ;
 	background-size:cover;
-	z-index:0.7;
-	margin-bottom:250px;
+	z-index:0;
+	
+	
 }
 .tamnije{
 	width:100%;
-	height:1000px;
+	height:800px;
 	position:absolute;
 	background-color:rgba(0,0,0,0.6);
-	margin-top:-200px;
-	z-index:0.9;
 	background-attachment:fixed;
+	z-index:1;
 }
 #tekstilink{
-	width:70%;
+	width:1100px;
 	height:300px;
-	margin-top:300px;
-	margin-left:230px;
-	padding-top:20px;
+	margin:0px auto;
+	position:absolute;
+	top:200px;
+	left:200px;
 }
 .tekst{
 	width:90%;
 	height:150px;
-	margin-left:90px;
+	
 	justify-content:center;
 	align-items:center;
+	position:relative;
+	left:100px;
+
 }
 .tekst h1{
 	color:white;
-	font-size:44px;
+	font-size:34px;
 	text-align:center;
 	font-family: 'Raleway', sans-serif;
 }
@@ -196,17 +221,19 @@ footer{
 	color:white;
 	margin-left:40px;
 	font-family: 'Raleway', sans-serif;
+	text-align:justfy;
 }
 #link{
-	width:20%;
-	height:100px;
-	margin-left:430px;
-	margin-top:40px;
-	border-radius:40px 40px 40px 40px;
+	width:200px;
+	height:50px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	border:3px solid #fff;
+	position:relative;
+	margin:0px auto;
+	left:20px;
+	
 }
 #link:hover{
 	-webkit-transform:scale(0.9);
@@ -216,17 +243,20 @@ footer{
 #link a{
 	text-decoration:none;
 	color:white;
-	font-size:34px;
+	font-size:24px;
 	font-family: 'Raleway', sans-serif;
+	
 }
 .blok2{
 	width:80%;
 	height:400px;
 	position:absolute;
-	z-index:0.8;
-	margin-left:170px;
-	margin-top:-460px;
 	padding-top:10px;
+	top:705px;
+	left:180px;
+	z-index:2;
+	
+	
 }
 .slika1{
 	width:300px;
@@ -258,216 +288,329 @@ footer{
 }
 .blok3{
 	width:100%;
-	height:500px;
-	padding-top:20px;
+	height:800px;
+	background-color:#d6f58e;
+	position:relative;
+	z-index:1;
+	
 }
 .tekst1{
-	width:40%;
+	width:500px;
 	height:470px;
-	background-color:;
 	float:left;
-	margin-left:100px;
+	position:absolute;
+	top:250px;
+	left:150px;
+	
 }
 .tekst1 p{
-	font-size:35px;
-	margin-top:60px;
+	font-size:24px;
+	margin-top:160px;
 	font-family: 'Raleway', sans-serif;
+	color:;
+	text-align:center;
 }
 .slika4{
-	width:35.5%;
+	width:500px;
 	height:450px;
 	background-color:black;
 	float:left;
-	margin-left:90px;
-	box-shadow: 80px 20px;
+	position:absolute;
+	top:300px;
+	left:800px;
+	
+	
+}
+.cleaner{
+	clear:both;
 }
 .blok4{
 	width:100%;
 	height:1400px;
-	background-image:url("img/ovce1.jpg");
+	background-image:;
 	background-size:cover;
-	position:realative;
+	position:;
 	z-index:0.7;
     background-attachment:fixed;
+	background-color:white;
+	border-top:2px solid black ;
+
 }
 #proizvodi{
 	width:40%;
 	height:70px;
-	margin-left:50px;
 	padding-top:20px;
+	position:absolute;
+	top:1700px;
+	left:30px;
+	z-index:1;
+	
 }
 #proizvodi h2{
-	font-size:60px;
+	font-size:34px;
 	margin-left:50px;
-	color:white;
+	color:black;
 	font-family: 'Raleway', sans-serif;
 }
 .slike{
-	width:90%;
+	width:1400px;
 	height:400px;
-	margin-top:30px;
-	padding-top:30px;
-	margin-left:150px;
+	padding-top:10px;
+	
+	position:relative;
+	top:100px;
+	left:50px;
 }
 .slika5{
-	width:30%;
+	width:300px;
 	height:370px;
-	margin-top:0px;
-	margin-left:30px;
+	margin-left:50px;
+	margin-right:180px;
 	float:left;
+	
 }
 .slika5 figcaption{
-	font-size:34px;
+	font-size:24px;
 	margin-left:150px;
-	color:white;
+	color:black;
 	font-family: 'Raleway', sans-serif;
 }
 .slika6{
-	width:25%;
+	width:300px;
 	height:370px;
 	margin-bottom:50px;
-	margin-left:20px;
+	margin-right:100px;
 	float:left;
 }
 .slika6 figcaption{
-	font-size:34px;
+	font-size:24px;
 	text-align:center;
-	color:white;
+	color:black;
 	font-family: 'Raleway', sans-serif;
 }
 .slika7{
-	width:30%;
+	width:300px;
 	height:370px;
-	margin-left:90px;
+	margin-left:70px;
 	float:left;
 }
 .slika7 figcaption{
-	font-size:34px;
+	font-size:24px;
 	margin-left:100px;
-	color:white;
+	color:black;
 	font-family: 'Raleway', sans-serif;
 }
 .slike1{
-	width:90%;
+	width:1400px;
 	height:400px;
-	margin-top:190px;
 	padding-top:30px;
-	margin-left:110px;
 	
+	position:relative;
+	top:50px;
+	left:80px;
 }
 .slika9{
-	width:30%;
+	width:300px;
 	height:370px;
-	margin-right:20px;
-	margin-left:25px;
-	float:right;
+	margin:0px auto;
+	position:relative;
+	top:100px;
+	left:200px;
 }
 .slika9 figcaption{
-	font-size:34px;
+	font-size:24px;
 	margin-left:150px;
-	color:white;
+	color:black;
 	font-family: 'Raleway', sans-serif;
 }
 #slika8{
-	width:62%;
+	width:300px;
 	height:370px;
 	float:left;
-	margin-right:30px;
+	margin:0px auto;
+	position:relative;
+	top:100px;
+	left:250px;
 }
 #slika8 figcaption{
-	font-size:34px;
+	font-size:24px;
 	text-align:center;
-	color:white;
+	color:black;
 	font-family: 'Raleway', sans-serif;
 }
 .tamnije1{
 	width:100%;
 	height:1340px;
 	background-color:rgba(0,0,0,0.6);
+	position:;
 }
 #glavni{
 	width:100%;
-	height:1290px;  
-	background-image:url("img/pozadina-konj.jpg");
-	margin-bottom:-915px;
+	height:2000px;  
+	background-color:#d6f58e;
+	
+	
+
 }
+#glavni1{
+	width:100%;
+	height:1000px;  
+	background-color:#d6f58e;
+	
+}	
+#glavnii{
+	width:100%;
+	height:3000px;  
+	background-color:#d6f58e;
+	
+	
+
+}
+
 .picture{
 	width:1300px;
-	height:600px;
-	margin-left:130px;
-	padding-top:150px;
+	height:550px;
+	margin:0px auto;
+	position:relative;
+	top:130px;
+	left:20px;
+	
 }
-.picture1{
-	width:1300px;
-	height:400px;
-	margin-left:130px;
-}
+
 .pic{
 	float:left;
 	margin-right:30px;
 }
-#glavni h1{
+#glavni1 h1{
 	padding-top:200px;
-	margin-left:200px;
-	font-size:44px;
-	color:white;
+	margin-left:120px;
+	font-size:24px;
+	color:black;
 	margin-bottom:50px;
 	font-family: 'Raleway', sans-serif;
 }
-#glavni form{
+#glavni1 form{
 	margin-left:200px;
-	font-size:34px;
+	font-size:24px;
 }
-#glavni form input{
+#glavni1 form input{
 	width:700px;
 	height:50px;
 	font-size:24px;
 	margin-bottom:20px;
 }
-#glavni form  p{
-	color:white;
+#glavni1 form  p{
+	color:black;
 	font-family: 'Raleway', sans-serif;
 }
-#glavni textarea{
+#glavni1 textarea{
 	width:700px;
 	height:200px;
 }
 .red{
-	width:100%;
+	width:1100px;
 	height:500px;
-	padding-top:150px;
-}
-.red p{
-	font-size:34px;
-	color:white;
-	font-family: 'Raleway', sans-serif;
+	position:relative;
+	top:150px;
 }
 .red1{
-	width:100%;
+	width:1100px;
 	height:500px;
+	position:relative;
+	top:250px;
 }
-.red1 p{
-	font-size:34px;
-	color:white;
-	margin-left:30px;
+.red p{
+	font-size:24px;
+	margin-top:80px;
 	font-family: 'Raleway', sans-serif;
+	text-align:center;
 }
-.red1 a{
+
+.red1 p{
+	font-size:24px;
+	color:black;
+	margin-left:30px;
+	margin-top:80px;
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+.red1  a{
 	text-decoration:underline;
-	color:white;
+	color:black;
 }
 .element{
-	width:40%;
+	width:500px;
 	height:500px;
 	float:left;
-	margin-left:150px;
 	display: flex;
-  opacity: 0;
-  animation-name: fadeIn;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	margin:0px auto;
+	position:relative;
+	left:100px;
+	
+}
+.element1 {
+	width:500px;
+	height:500px;
+	float:left;
+	display: flex;
+	opacity: 0;
+	animation-name: fadeIn;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	margin:0px auto;
+	position:relative;
+	left:330px;
+	
+}
+#element2{
+	width:1500px;
+	height:100px;
+	position:relative;
+	margin:0px auto;
+	
+	top:50px;
+}
+#element2 p{
+	text-align:center;
+	margin-top:10px;
+}
+.element3{
+	position:relative;
+	top:250px;
+	left:30px;
+}
+.element4{
+	position:relative;
+	left:250px;
+	top:200px;
+}
+#forma{
+	width:300px;
+	height:500px;
+	position:relative;
+	top:;
+	right:80px;
+}
+.mapa{
+	width:450px;
+	height:500px;
+	
+	position:relative;
+	left:1000px;
+	top:-450px;
+}
+.glavni2{
+	width:1000px;
+	height:300px;
+	position:relative;
+	bottom:300px;
 }
 .sitemrss{
+	
 	width:200px;
 	height:70px;
 	float:right;
@@ -475,6 +618,16 @@ footer{
 	margin-right:40px;
 	padding:10px;
 }
+.footer{
+	width:100%;
+	height:200px;
+	position:relative;
+	background-color:#5c8a03;
+	opacity:1;
+	padding-top:20px;
+	
+}
+
 .sitemrss a{
 	margin-left:20px;
 }
